@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome at North Star Bakery, a neighborhood bakery.">
+  <title>Welcome | North Star Bakery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="North Star Bakery home">
+      <img src="assets/bakery-logo.png" alt="North Star Bakery logo" width="160">
+      <span>North Star Bakery</span>
+    </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Our Bakery</a></li>
+          <li><a href="contact.html">Contact and Pre-Orders</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <h1>Welcome to North Star Bakery</h1>
+      <p class="lead">Freshly baked treats, friendly faces, and something special for every visit.</p>
+      <a class="cta" href="products.html">Explore Our Bakes</a>
+    </div>
+    <div class="content-grid">
+    <section aria-labelledby="known-for">
+      <h2 id="known-for">What We're Known For</h2>
+      <p>We make comforting breads, pastries, and celebration cakes with a handmade feel. Whether you stop by before work or plan a family event, we would love to help.</p>
+      <img src="assets/bakery-storefront.jpg" alt="Storefront entrance of North Star Bakery" width="540">
+    </section>
+    <section aria-labelledby="weekly-feature">
+      <h2 id="weekly-feature">Featured Item of the Week</h2>
+      <p>Ask about this week's featured bakery treat and availability before visiting.</p>
+      <picture>
+        <source media="(max-width: 600px)" srcset="assets/bakery-feature-small.jpg">
+        <img src="assets/bakery-feature-large.jpg" alt="Featured freshly baked bakery item on display" width="620">
+      </picture>
+      <p><a href="products.html">Browse bakery products</a></p>
+    </section>
+    <section aria-labelledby="visit">
+      <h2 id="visit">Visit Us</h2>
+      <p>We serve our neighborhood and welcome commuters, families, and event planners.</p>
+      <p>Hours and street address: please contact the bakery for current details.</p>
+      <p><a href="contact.html">Ask for current hours and pickup information</a></p>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <p>North Star Bakery | Handmade treats for our neighborhood.</p>
+    <p><a href="contact.html">Ask about an order or bakery hours</a></p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

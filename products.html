@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Products at North Star Bakery, a neighborhood bakery.">
+  <title>Products | North Star Bakery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="North Star Bakery home">
+      <img src="assets/bakery-logo.png" alt="North Star Bakery logo" width="160">
+      <span>North Star Bakery</span>
+    </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" aria-current="page">Products</a></li>
+          <li><a href="about.html">About Our Bakery</a></li>
+          <li><a href="contact.html">Contact and Pre-Orders</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="hero"><h1>Our Breads, Pastries, and Cakes</h1></div>
+    <p>Explore our bakery menu ideas. Prices below are illustrative ranges for this student website, not confirmed business prices. Contact us for a quote and availability.</p>
+
+    <section class="favorites-panel" aria-labelledby="favorites-heading">
+      <h2 id="favorites-heading">Save Your Bakery Favorites</h2>
+      <p>Choose items you would like to ask about later. Your favorites and category choice stay on this browser when you return.</p>
+      <label for="category-filter">Browse by category</label>
+      <select id="category-filter"><option value="all">All baked goods</option><option value="bread">Breads</option><option value="pastry">Pastries</option><option value="cake">Cakes</option></select>
+      <div id="bakery-items" class="item-grid" aria-label="Bakery items"></div>
+      <div class="saved-summary" aria-live="polite" aria-atomic="true"><h3>Your saved favorites</h3><p id="favorite-summary">No favorites saved yet.</p><a href="contact.html">Ask about availability and pre-orders</a></div>
+      <p class="note">Favorites are saved only on this device. Selecting an item does not place an order.</p>
+    </section>
+    <div class="content-grid">
+    <section aria-labelledby="breads">
+      <h2 id="breads">Breads</h2>
+      <p>Comforting everyday loaves and specialty breads for sharing. Sample range: $5–$12 per loaf.</p>
+      <img src="assets/bakery-bread.jpg" alt="Assortment of artisan bread loaves" width="550">
+      <figure>
+        <img src="assets/bakery-signature-loaf.jpg" alt="North Star Bakery signature artisan loaf" width="480">
+        <figcaption>Our Signature Loaf: a featured bread to ask about when placing a pre-order.</figcaption>
+      </figure>
+    </section>
+    <section aria-labelledby="pastries">
+      <h2 id="pastries">Pastries</h2>
+      <p>Small sweet treats for breakfast, breaks, and celebrations. Sample range: $3–$7 each.</p>
+    </section>
+    <section aria-labelledby="cakes">
+      <h2 id="cakes">Cakes</h2>
+      <p>Celebration cakes for birthdays and gatherings. Sample range: $30–$85, depending on size and design.</p>
+      <p><a href="contact.html">Request a cake or bread pre-order</a></p>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <p>North Star Bakery | Handmade treats for our neighborhood.</p>
+    <p><a href="contact.html">Ask about an order or bakery hours</a></p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
